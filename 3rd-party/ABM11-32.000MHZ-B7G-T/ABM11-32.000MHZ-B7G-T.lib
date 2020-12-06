@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ABM11-32.000MHZ-B7G-T
+#
+DEF ABM11-32.000MHZ-B7G-T Y 0 40 Y Y 1 L N
+F0 "Y" -300 300 50 H V L BNN
+F1 "ABM11-32.000MHZ-B7G-T" -300 -300 50 H V L BNN
+F2 "OSCCC200X160X59" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ABM11-32.000MHZ-B7G-T" 0 0 50 H I L BNN "MP"
+F5 "535-10942-1-ND" 0 0 50 H I L BNN "DIGI-KEY_PART_NUMBER"
+F6 "https://snapeda.com/shop?store=Mouser&id=356268" 0 0 50 H I L BNN "MOUSER-PURCHASE-URL"
+F7 "26MHz ±20ppm Crystal 10pF 100 Ohms 4-SMD, No Lead" 0 0 50 H I L BNN "DESCRIPTION"
+F8 "SMD-4 Abracon" 0 0 50 H I L BNN "PACKAGE"
+F9 "https://snapeda.com/shop?store=DigiKey&id=356268" 0 0 50 H I L BNN "DIGIKEY-PURCHASE-URL"
+F10 "Abracon LLC" 0 0 50 H I L BNN "MF"
+DRAW
+P 2 0 0 10 -50 200 50 200 N
+P 2 0 0 10 50 200 50 0 N
+P 2 0 0 10 50 0 -50 0 N
+P 2 0 0 10 -50 0 -50 200 N
+P 2 0 0 10 -100 200 -100 100 N
+P 2 0 0 10 -100 100 -100 0 N
+P 2 0 0 10 100 200 100 100 N
+P 2 0 0 10 100 100 100 0 N
+P 2 0 0 10 100 100 300 100 N
+P 2 0 0 10 -100 100 -300 100 N
+S -300 -300 300 300 0 0 10 f
+X ~ 1 -500 100 200 R 40 40 0 0 P 
+X GND 2 500 -100 200 L 40 40 0 0 W 
+X GND 4 500 -100 200 L 40 40 0 0 W 
+X ~ 3 500 100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
