@@ -2,4 +2,5 @@
   (lib (name W3008)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/W3008)(options "")(descr ""))
   (lib (name ABS06-107-32)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/ABS06-107-32.768KHZ-T)(options "")(descr ""))
   (lib (name ABM11-32)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/ABM11-32.000MHZ-B7G-T)(options "")(descr ""))
+  (lib (name NRF52840-CKAA-R7)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/NRF52840-CKAA-R7)(options "")(descr ""))
 )
