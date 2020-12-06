@@ -791,4 +791,6 @@ Wire Wire Line
 	9550 4400 9450 4400
 Wire Wire Line
 	9450 4400 9450 4550
+Text Notes 7050 6650 0    50   ~ 0
+Using datasheet figure 216: Circuit configuration no. 1 schematic for CKAA WLCSP
 $EndSCHEMATC
