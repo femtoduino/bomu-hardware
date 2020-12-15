@@ -4,4 +4,5 @@
   (lib (name ABM11-32)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/ABM11-32.000MHZ-B7G-T)(options "")(descr ""))
   (lib (name NRF52840-CKAA-R7)(type KiCad)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/NRF52840-CKAA-R7)(options "")(descr ""))
   (lib (name bomu-usb-a-insert)(type KiCad)(uri ${KIPRJMOD}/bomu-usb-a-insert.pretty)(options "")(descr ""))
+  (lib (name bomu-testpoint)(type KiCad)(uri ${KIPRJMOD}/bomu-testpoint.pretty)(options "")(descr ""))
 )

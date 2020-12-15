@@ -777,39 +777,6 @@ Wire Wire Line
 Text Notes 7050 6650 0    50   ~ 0
 Using datasheet figure 216: Circuit configuration no. 1 schematic for CKAA WLCSP
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5FCE36DE
-P 750 4500
-F 0 "TP1" H 808 4618 50  0000 L CNN
-F 1 "TestPoint" H 808 4527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 950 4500 50  0001 C CNN
-F 3 "~" H 950 4500 50  0001 C CNN
-	1    750  4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5FCE40CD
-P 1300 4500
-F 0 "TP2" H 1358 4618 50  0000 L CNN
-F 1 "TestPoint" H 1358 4527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1500 4500 50  0001 C CNN
-F 3 "~" H 1500 4500 50  0001 C CNN
-	1    1300 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5FCE4A4F
-P 1850 4500
-F 0 "TP3" H 1908 4618 50  0000 L CNN
-F 1 "TestPoint" H 1908 4527 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2050 4500 50  0001 C CNN
-F 3 "~" H 2050 4500 50  0001 C CNN
-	1    1850 4500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP4
 U 1 1 5FCE4C65
 P 8300 1100
@@ -842,32 +809,6 @@ F 3 "~" H 3700 4500 50  0001 C CNN
 	1    3500 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0124
-U 1 1 5FCFFB30
-P 750 4700
-F 0 "#PWR0124" H 750 4450 50  0001 C CNN
-F 1 "GND" H 755 4527 50  0000 C CNN
-F 2 "" H 750 4700 50  0001 C CNN
-F 3 "" H 750 4700 50  0001 C CNN
-	1    750  4700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	750  4500 750  4700
-$Comp
-L power:+5V #PWR0125
-U 1 1 5FD03B63
-P 1300 4700
-F 0 "#PWR0125" H 1300 4550 50  0001 C CNN
-F 1 "+5V" V 1315 4828 50  0000 L CNN
-F 2 "" H 1300 4700 50  0001 C CNN
-F 3 "" H 1300 4700 50  0001 C CNN
-	1    1300 4700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1300 4500 1300 4700
 $Comp
 L power:+3V0 #PWR0126
 U 1 1 5FD06B8A
@@ -906,4 +847,39 @@ F 3 "" H 9550 3900 50  0001 C CNN
 	1    9550 3900
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5FCE4A4F
+P 1850 4500
+F 0 "TP3" H 1908 4618 50  0000 L CNN
+F 1 "TestPoint" H 1908 4527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2050 4500 50  0001 C CNN
+F 3 "~" H 2050 4500 50  0001 C CNN
+	1    1850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FDB96C2
+P 1350 4500
+F 0 "TP1" H 1408 4618 50  0000 L CNN
+F 1 "TestPoint" H 1408 4527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1550 4500 50  0001 C CNN
+F 3 "~" H 1550 4500 50  0001 C CNN
+	1    1350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FDBCBF5
+P 1350 4700
+F 0 "#PWR?" H 1350 4450 50  0001 C CNN
+F 1 "GND" H 1355 4527 50  0000 C CNN
+F 2 "" H 1350 4700 50  0001 C CNN
+F 3 "" H 1350 4700 50  0001 C CNN
+	1    1350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4700 1350 4500
 $EndSCHEMATC

@@ -4,4 +4,5 @@
   (lib (name ABM11-32.000MHZ-B7G-T)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/ABM11-32.000MHZ-B7G-T/ABM11-32.000MHZ-B7G-T.lib)(options "")(descr ""))
   (lib (name NRF52840-CKAA-R7)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/NRF52840-CKAA-R7/NRF52840-CKAA-R7.lib)(options "")(descr ""))
   (lib (name bomu-usb-a-insert)(type Legacy)(uri ${KIPRJMOD}/bomu-usb-a-insert.lib)(options "")(descr ""))
+  (lib (name bomu-testpoint)(type Legacy)(uri ${KIPRJMOD}/bomu-testpoint.lib)(options "")(descr ""))
 )
