@@ -1,0 +1,44 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# U.FL-R-SMT(10)
+#
+DEF U.FL-R-SMT(10) J 0 40 N N 1 L N
+F0 "J" -150 160 50 H V L BNN
+F1 "U.FL-R-SMT(10)" -160 -270 50 H V L BNN
+F2 "HRS_U.FL-R-SMT(10)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "U.FL-R-SMT_10_" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "PRICE"
+F6 "FakePackage u" 0 0 50 H I L BNN "PACKAGE"
+F7 "Hirose" 0 0 50 H I L BNN "MF"
+F8 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F9 "U.FL Series 50 Ohm Receptacle Male Pins Ultra Small SMT Coaxial Connector" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+C 0 100 40 0 0 10 N
+P 2 0 0 10 -40 60 0 60 N
+P 2 0 0 10 0 60 40 60 N
+P 2 0 0 10 0 -100 -100 -100 N
+P 2 0 0 10 -130 130 -100 100 N
+P 2 0 0 10 -130 70 -100 100 N
+P 2 0 0 10 0 60 0 -100 N
+C 0 -100 10 0 0 10 N
+P 2 0 0 10 -100 100 100 100 N
+P 2 0 0 10 100 -100 0 -100 N
+P 2 0 0 10 0 -100 0 -130 N
+P 2 0 0 10 0 -130 -30 -130 N
+P 2 0 0 10 0 -130 30 -130 N
+P 2 0 0 10 -30 -130 -50 -160 N
+P 2 0 0 10 0 -130 -20 -160 N
+P 2 0 0 10 30 -130 10 -160 N
+P 2 0 0 10 -130 -70 -100 -100 N
+P 2 0 0 10 -130 -130 -100 -100 N
+X ~ 1 100 100 200 L 40 40 0 0 P 
+X ~ 2 100 -100 200 L 40 40 0 0 P 
+X ~ 3 100 -100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

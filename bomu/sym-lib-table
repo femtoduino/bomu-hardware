@@ -5,4 +5,7 @@
   (lib (name NRF52840-CKAA-R7)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/NRF52840-CKAA-R7/NRF52840-CKAA-R7.lib)(options "")(descr ""))
   (lib (name bomu-usb-a-insert)(type Legacy)(uri ${KIPRJMOD}/bomu-usb-a-insert.lib)(options "")(descr ""))
   (lib (name bomu-testpoint)(type Legacy)(uri ${KIPRJMOD}/bomu-testpoint.lib)(options "")(descr ""))
+  (lib (name 2020-12-25_05-18-44)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/ul_LRTBR48G/KiCAD/2020-12-25_05-18-44/2020-12-25_05-18-44.lib)(options "")(descr ""))
+  (lib (name U.FL-R-SMT_10_)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/U.FL-R-SMT_10_/U.FL-R-SMT_10_.lib)(options "")(descr ""))
+  (lib (name W.FL2-R-SMT-1_10_)(type Legacy)(uri /Users/aalbino/Projects/bomu-hardware/3rd-party/W.FL2-R-SMT-1_10_/W.FL2-R-SMT-1_10_.lib)(options "")(descr ""))
 )

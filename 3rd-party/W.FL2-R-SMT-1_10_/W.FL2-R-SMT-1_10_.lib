@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# W.FL2-R-SMT-1(10)
+#
+DEF W.FL2-R-SMT-1(10) J 0 40 Y Y 1 L N
+F0 "J" 1050 300 50 H V L BNN
+F1 "W.FL2-R-SMT-1(10)" 1050 200 50 H V L BNN
+F2 "W.FL-R-SMT-1(10)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "https://www.mouser.com/Search/Refine.aspx?Keyword=798-W.FL2-R-SMT-110" 0 0 50 H I L BNN "MOUSER_PRICE-STOCK"
+F5 "W.FL2-R-SMT-1(10)" 0 0 50 H I L BNN "MANUFACTURER_PART_NUMBER"
+F6 "798-W.FL2-R-SMT-110" 0 0 50 H I L BNN "MOUSER_PART_NUMBER"
+F7 "mm" 0 0 50 H I L BNN "HEIGHT"
+F8 "Hirose" 0 0 50 H I L BNN "MANUFACTURER_NAME"
+F9 "RF Connectors / Coaxial Connectors W.FL RECEPTACLE SMT" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+P 2 0 0 10 200 100 1000 100 N
+P 2 0 0 10 1000 -200 1000 100 N
+P 2 0 0 10 1000 -200 200 -200 N
+P 2 0 0 10 200 100 200 -200 N
+X SIG 1 0 0 200 R 40 40 0 0 B 
+X GND_2 3 0 -100 200 R 40 40 0 0 B 
+X GND_1 2 1200 0 200 L 40 40 0 0 B 
+X GND_3 4 1200 -100 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
