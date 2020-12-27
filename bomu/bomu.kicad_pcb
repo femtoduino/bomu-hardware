@@ -402,7 +402,7 @@
     (fp_text reference TP10 (at 0 1.448) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TestPoint (at 0 -1.55) (layer B.Fab) hide
+    (fp_text value DNP (at 0 -1.55) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 1.45) (layer B.Fab) hide
@@ -421,7 +421,7 @@
     (fp_text reference TP9 (at 0 1.448) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TestPoint (at 0 -1.55) (layer B.Fab) hide
+    (fp_text value DNP (at 0 -1.55) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 1.45) (layer B.Fab) hide
@@ -440,7 +440,7 @@
     (fp_text reference TP7 (at 0 1.448) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value TestPoint (at 0 -1.55) (layer B.Fab) hide
+    (fp_text value DNP (at 0 -1.55) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text user %R (at 0 1.45) (layer B.Fab) hide
@@ -504,7 +504,7 @@
     (fp_text reference TP1 (at 0 -1.448) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55) (layer F.Fab) hide
+    (fp_text value DNP (at 0 1.55) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45) (layer F.Fab) hide
@@ -523,7 +523,7 @@
     (fp_text reference TP5 (at 0 -1.448 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55 90) (layer F.Fab) hide
+    (fp_text value DNP (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45 90) (layer F.Fab) hide
@@ -542,7 +542,7 @@
     (fp_text reference TP3 (at 0 -1.448 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55 90) (layer F.Fab) hide
+    (fp_text value DNP (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45 90) (layer F.Fab) hide
@@ -561,7 +561,7 @@
     (fp_text reference TP4 (at 0 -1.448 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55 90) (layer F.Fab) hide
+    (fp_text value DNP (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45 90) (layer F.Fab) hide
@@ -580,7 +580,7 @@
     (fp_text reference TP6 (at 0 -1.448 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value TestPoint (at 0 1.55 90) (layer F.Fab) hide
+    (fp_text value DNP (at 0 1.55 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 -1.45 90) (layer F.Fab) hide
@@ -3757,7 +3757,7 @@
     (fp_text reference USB1 (at 8.60552 -4.9784) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB-A-INSERT (at -0.254 -6.985) (layer F.Fab) hide
+    (fp_text value DNP (at -0.254 -6.985) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_poly (pts (xy -3.75 3.125) (xy -4.75 3.125) (xy -4.75 2.125) (xy -3.75 2.125)) (layer F.Mask) (width 0))
@@ -5208,7 +5208,7 @@
   (segment (start 141.62532 132.40512) (end 142.38478 133.16458) (width 0.127) (layer In3.Cu.SIG2) (net 67))
   (segment (start 137.00506 132.40512) (end 141.62532 132.40512) (width 0.127) (layer In3.Cu.SIG2) (net 67))
 
-  (zone (net 1) (net_name GND) (layer In4.Cu.GND) (tstamp 5FE82A89) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer In4.Cu.GND) (tstamp 5FE82CD1) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.1)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5440,7 +5440,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FE82A86) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FE82CCE) (hatch edge 0.508)
     (connect_pads yes (clearance 0.2))
     (min_thickness 0.1)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
