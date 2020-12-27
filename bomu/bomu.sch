@@ -941,17 +941,6 @@ $EndComp
 Wire Wire Line
 	900  4500 900  4700
 $Comp
-L Device:L L3
-U 1 1 5FEBFB1D
-P 9750 2800
-F 0 "L3" V 9940 2800 50  0000 C CNN
-F 1 "DNP" V 9849 2800 50  0000 C CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" H 9750 2800 50  0001 C CNN
-F 3 "~" H 9750 2800 50  0001 C CNN
-	1    9750 2800
-	0    1    -1   0   
-$EndComp
-$Comp
 L Device:C_Small C_RF1
 U 1 1 5FEC0D2F
 P 9550 3000
@@ -962,31 +951,11 @@ F 3 "~" H 9550 3000 50  0001 C CNN
 	1    9550 3000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C_RF2
-U 1 1 5FEC1A7E
-P 9950 3000
-F 0 "C_RF2" H 10042 3046 50  0000 L CNN
-F 1 "DNP" H 10042 2955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0201_0603Metric" H 9950 3000 50  0001 C CNN
-F 3 "~" H 9950 3000 50  0001 C CNN
-	1    9950 3000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9350 2800 9550 2800
 Wire Wire Line
-	9900 2800 9950 2800
-Wire Wire Line
 	9550 2900 9550 2800
 Connection ~ 9550 2800
-Wire Wire Line
-	9550 2800 9600 2800
-Wire Wire Line
-	9950 2900 9950 2800
-Connection ~ 9950 2800
-Wire Wire Line
-	9950 2800 10450 2800
 $Comp
 L power:GND #PWR0128
 U 1 1 5FECD87E
@@ -998,21 +967,8 @@ F 3 "" H 9550 3200 50  0001 C CNN
 	1    9550 3200
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5FECDCAD
-P 9950 3200
-F 0 "#PWR0129" H 9950 2950 50  0001 C CNN
-F 1 "GND" H 9955 3027 50  0000 C CNN
-F 2 "" H 9950 3200 50  0001 C CNN
-F 3 "" H 9950 3200 50  0001 C CNN
-	1    9950 3200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 3100 9550 3200
-Wire Wire Line
-	9950 3100 9950 3200
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5FF4F095
@@ -1051,4 +1007,6 @@ Text Label 4550 3200 0    50   ~ 0
 P0.04
 Text Label 4650 3300 0    50   ~ 0
 P0.05
+Wire Wire Line
+	9550 2800 10450 2800
 $EndSCHEMATC

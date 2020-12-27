@@ -1,0 +1,25 @@
+### Module positions - created on Saturday, December 26, 2020 at 10:43:21 PM ###
+### Printed by Pcbnew version kicad (5.1.8-0-10_14)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val       Package                 PosX       PosY       Rot  Side
+C1        1pF       C_0201_0603Metric     3.8430     1.6307  180.0000  bottom
+C2        100nF     C_0201_0603Metric     6.7310     7.3914    0.0000  bottom
+C3        820pF     C_0201_0603Metric     2.8956     2.4892    0.0000  bottom
+C4        C_Small   C_0201_0603Metric     7.0358     3.2766    0.0000  bottom
+C5        C_Small   C_0201_0603Metric     7.0358     6.7818  180.0000  bottom
+C6        C_Small   C_0201_0603Metric     8.6106     8.6970   90.0000  bottom
+C7        C_Small   C_0201_0603Metric     5.5118     8.7122  270.0000  bottom
+C8        4.7uF     C_0201_0603Metric     2.2098     7.8486   90.0000  bottom
+C9        4.7uF     C_0201_0603Metric     2.9210     7.8486   90.0000  bottom
+C10       4.7uF     C_0201_0603Metric     3.6322     7.8486   90.0000  bottom
+C11       1uF       C_0201_0603Metric     4.3434     7.8486  270.0000  bottom
+C12       100nF     C_0201_0603Metric     1.5748     5.2324  270.0000  bottom
+C13       100nF     C_0201_0603Metric     1.4986     2.4892  180.0000  bottom
+C14       100nF     C_0201_0603Metric     6.6802     2.6416    0.0000  bottom
+C15       1uF       C_0201_0603Metric     5.3594     2.6416    0.0000  bottom
+C_RF1     DNP       C_0201_0603Metric     6.4008     0.9373  270.0000  bottom
+L1        3.9nH     L_0201_0603Metric     4.1631     2.5349   90.0000  bottom
+L2        4.7nH     L_0201_0603Metric     5.2375     1.2573  180.0000  bottom
+R1        4R7       R_0201_0603Metric     1.1176     1.2954  180.0000  bottom
+## End
