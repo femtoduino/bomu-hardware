@@ -400,7 +400,7 @@
       (net 7 "+5V") (tstamp 3d23f1aa-739c-4aad-973a-88ce51afa222))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp b72e5c30-40a7-40ad-8a18-9c0c5700c490))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -440,7 +440,7 @@
       (net 8 "+3V0") (tstamp 42a8e78a-e3ff-4951-99e5-fe16b864501a))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp af1d06a8-5dcb-4787-ae2b-215bd7e94315))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -480,7 +480,7 @@
       (net 11 "VBUS") (tstamp 1b977e6b-7619-49a1-b496-c210b5e080ea))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 7 "+5V") (tstamp 9f1277c0-a8ea-4cbb-9536-ef0083f99089))
-    (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -520,7 +520,7 @@
       (net 59 "/XTAL_N") (tstamp 6087b180-103c-4017-b585-67a9b6cd6399))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp b5581589-a491-4852-81ec-69f55ec834a4))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -529,7 +529,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "B.Cu")
     (tedit 5B301BBE) (tstamp 00000000-0000-0000-0000-00005fd6451c)
-    (at 140.6398 132.8572 90)
+    (at 140.6398 132.857189 90)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (path "/00000000-0000-0000-0000-00005fcc5ef2")
@@ -560,7 +560,7 @@
       (net 60 "/32XTAL_P") (tstamp d81312e2-43fc-43d9-a479-0e0f583217ab))
     (pad "2" smd roundrect (at 0.32 0 90) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 8a2559e9-dbdd-4f7f-836c-2833892dcdb3))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -600,7 +600,7 @@
       (net 1 "GND") (tstamp 217cce56-cb50-45c9-8645-a666dc7ba2a7))
     (pad "2" smd roundrect (at 0.32 0 270) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 61 "/32XTAL_N") (tstamp 2a9b33e2-8edb-48ed-bba2-a88f33c41fa8))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12277,7 +12277,7 @@
       (net 8 "+3V0") (tstamp 47087bab-cd58-43d6-96da-94199f32eb13))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp c3d994d8-3660-4292-afe9-dab6c7b4db41))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12350,7 +12350,7 @@
       (net 1 "GND") (tstamp b7e1a35f-2f80-4873-9d94-6b81ba8c7e8c))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 8 "+3V0") (tstamp 66b13eed-ad52-4426-9452-572aeab06468))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12390,7 +12390,7 @@
       (net 5 "Net-(C3-Pad1)") (tstamp fafe5b1b-7f76-4449-9136-6300cef212f7))
     (pad "2" smd roundrect (at 0.32 0) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp fc4b2044-ccd8-4441-8a46-cab6615b54b3))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12430,7 +12430,7 @@
       (net 3 "Net-(C1-Pad1)") (tstamp 45861ccc-00d1-4965-92c0-7795953539e6))
     (pad "2" smd roundrect (at 0.32 0 90) (size 0.46 0.213) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 10 "/ANT") (tstamp 6ccc3112-69dd-43df-92cb-c40af5d8bb66))
-    (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12470,7 +12470,7 @@
       (net 3 "Net-(C1-Pad1)") (tstamp 5dc5601e-60bf-4841-becd-57503ff9f336))
     (pad "2" smd roundrect (at 0.32 0 45) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 4da83e4d-8367-42d3-9c7a-beafcf9b5d37))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12510,7 +12510,7 @@
       (net 4 "Net-(C2-Pad1)") (tstamp fa2801f2-baae-4998-9446-e6ce29a7a9cb))
     (pad "2" smd roundrect (at 0.32 0) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 6afde42d-9118-48e3-80f3-0ec39b8c0357))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12550,7 +12550,7 @@
       (net 1 "GND") (tstamp 34093a2d-8aa8-4cc6-a757-8a76ceb197e2))
     (pad "2" smd roundrect (at 0.32 0 270) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 8 "+3V0") (tstamp 670749fb-0a77-4459-96e2-1c8672c7cd77))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12651,7 +12651,7 @@
 
   (footprint "Inductor_SMD:L_0201_0603Metric" (layer "B.Cu")
     (tedit 5FE6CF8B) (tstamp 00000000-0000-0000-0000-00005fe7c2cf)
-    (at 137.26668 140.29694 180)
+    (at 137.26668 140.296951 180)
     (descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (path "/00000000-0000-0000-0000-00005fdce554")
@@ -12682,7 +12682,7 @@
       (net 66 "Net-(C_RF1-Pad1)") (tstamp a1ff0d2d-543d-43fe-bc5d-2d1061b020e4))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.213) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 3 "Net-(C1-Pad1)") (tstamp dd4af207-d4a7-41de-85ca-3138d85f8e1c))
-    (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12691,7 +12691,7 @@
 
   (footprint "Inductor_SMD:L_0201_0603Metric" (layer "B.Cu")
     (tedit 5FE91196) (tstamp 00000000-0000-0000-0000-00005fe91960)
-    (at 140.4112 140.29694 180)
+    (at 140.4112 140.296951 180)
     (descr "Inductor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (path "/00000000-0000-0000-0000-00005fe941ec")
@@ -12722,7 +12722,7 @@
       (net 2 "Net-(ANT1-PadFEED)") (tstamp 7b0203d6-da32-404a-bacb-e8d16ce8d701))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.213) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 66 "Net-(C_RF1-Pad1)") (tstamp 46d068db-b7c5-4a8c-9faa-76cd397fdbdf))
-    (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12762,7 +12762,7 @@
       (net 66 "Net-(C_RF1-Pad1)") (tstamp 9cd1a8fb-fd14-4d52-9114-8d9591227c7f))
     (pad "2" smd roundrect (at 0.32 0 90) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp dcdda497-0562-4e51-92cd-1b7925a84e88))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12802,7 +12802,7 @@
       (net 2 "Net-(ANT1-PadFEED)") (tstamp 08a67324-4e38-4f6b-b615-eff01e2f0d5a))
     (pad "2" smd roundrect (at 0.32 0 135) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 750aecd5-625b-4600-bcd7-119c4c1d63ec))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12842,7 +12842,7 @@
       (net 2 "Net-(ANT1-PadFEED)") (tstamp f1523355-74ba-4803-84d3-77d907a86b9e))
     (pad "2" smd roundrect (at 0.32 0 90) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 297c5614-21d4-4170-911d-1ea424ad7a4d))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12941,7 +12941,7 @@
       (net 6 "Net-(C8-Pad1)") (tstamp 7fedee25-5daa-458b-adae-c9dd9a7b717b))
     (pad "2" smd roundrect (at 0.485 0 90) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp 9fcd2ccb-5c30-4502-8945-b0c4f91a663d))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12979,7 +12979,7 @@
       (net 1 "GND") (tstamp 4d373eee-cbc7-42b5-b3de-e759606636f6))
     (pad "2" smd roundrect (at 0.485 0) (size 0.59 0.64) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.25)
       (net 9 "Net-(C15-Pad2)") (tstamp 9d6b7648-20b8-4b80-b4d2-adfb57ed026b))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13019,7 +13019,7 @@
       (net 8 "+3V0") (tstamp 8424442a-d688-4cd7-a051-e0fdfcf51ba9))
     (pad "2" smd roundrect (at 0.32 0) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (tstamp fd266f1a-bc49-4859-a8f3-9b8e6fa12efe))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13059,7 +13059,7 @@
       (net 1 "GND") (tstamp 65183cab-5a45-4c93-8d70-9647e4ee09a6))
     (pad "2" smd roundrect (at 0.32 0 180) (size 0.46 0.4) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.25)
       (net 58 "/XTAL_P") (tstamp bd7427c1-e557-468e-a050-9264af7001ee))
-    (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
