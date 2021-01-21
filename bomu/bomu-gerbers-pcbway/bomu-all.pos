@@ -1,31 +1,31 @@
-### Module positions - created on Wednesday, January 06, 2021 at 12:38:53 AM ###
-### Printed by Pcbnew version kicad (5.1.8-0-10_14)
+### Module positions - created on Thursday, January 21, 2021 at 12:33:26 AM ###
+### Printed by Pcbnew version (5.99.0-8258-g1ec6beaf04)
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val                    Package                          PosX       PosY       Rot  Side
-ANT1      W3008                  ANTENNA_W3008                 11.8618     4.7498  270.0000  bottom
-C1        1pF                    C_0201_0603Metric              4.5593     1.6535   45.0000  bottom
-C2        100nF                  C_0201_0603Metric              6.7310     7.3914    0.0000  bottom
-C3        820pF                  C_0201_0603Metric              2.8956     2.4892    0.0000  bottom
-C4        12pF                   C_0201_0603Metric              7.3914     3.3274  180.0000  bottom
-C5        12pF                   C_0201_0603Metric              7.3152     6.7564  180.0000  bottom
-C6        6pF                    C_0201_0603Metric              8.6106     8.6970   90.0000  bottom
-C7        6pF                    C_0201_0603Metric              5.5118     8.7122  270.0000  bottom
-C8        4.7uF                  C_0402_1005Metric              1.5240     7.7724   90.0000  bottom
-C9        4.7uF                  C_0402_1005Metric              2.5400     7.9756   90.0000  bottom
-C10       4.7uF                  C_0402_1005Metric              3.4290     7.9756   90.0000  bottom
-C11       1uF                    C_0402_1005Metric              4.3180     7.9756  270.0000  bottom
-C12       100nF                  C_0201_0603Metric              1.5748     5.2324  270.0000  bottom
-C13       100nF                  C_0201_0603Metric              1.4986     2.4892  180.0000  bottom
-C14       100nF                  C_0201_0603Metric              7.2136     2.6670    0.0000  bottom
-C15       1uF                    C_0402_1005Metric              5.2832     2.6416    0.0000  bottom
-C_RF1     DNP                    C_0201_0603Metric              7.3660     1.5748   90.0000  bottom
-C_RF2     DNP                    C_0201_0603Metric              9.2710     1.5748   90.0000  bottom
-C_RF3     DNP                    C_0201_0603Metric             10.9982     2.0574  135.0000  bottom
-L1        3.9nH                  L_0201_0603Metric              4.1631     2.6162   90.0000  bottom
-L2        4.7nH                  L_0201_0603Metric              5.2375     1.2573  180.0000  bottom
-L3        DNP                    L_0201_0603Metric              8.3820     1.2573  180.0000  bottom
-R1        4R7                    R_0201_0603Metric              1.1176     0.7366  180.0000  bottom
-XTAL1     ABM11-32.000MHZ-B7G-T  OSCCC200X160X59                7.2390     5.0292    0.0000  bottom
-XTAL2     ABS06-107-32.768KHZ-T  XTAL_ABS06-107-32.768KHZ-T     7.0104     8.5344  180.0000  bottom
+ANT1      W3008                  ANTENNA_W3008                -11.8618     4.7498  -90.0000  bottom
+C1        1pF                    C_0201_0603Metric             -4.5593     1.6535   45.0000  bottom
+C2        100nF                  C_0201_0603Metric             -6.7310     7.3914    0.0000  bottom
+C3        820pF                  C_0201_0603Metric             -2.8956     2.4892    0.0000  bottom
+C4        12pF                   C_0201_0603Metric             -7.3914     3.3274  180.0000  bottom
+C5        12pF                   C_0201_0603Metric             -7.3152     6.7564  180.0000  bottom
+C6        6pF                    C_0201_0603Metric             -8.6106     8.6970   90.0000  bottom
+C7        6pF                    C_0201_0603Metric             -5.5118     8.7122  -90.0000  bottom
+C8        4.7uF                  C_0402_1005Metric             -1.5240     7.7724   90.0000  bottom
+C9        4.7uF                  C_0402_1005Metric             -2.5400     7.9756   90.0000  bottom
+C10       4.7uF                  C_0402_1005Metric             -3.4290     7.9756   90.0000  bottom
+C11       1uF                    C_0402_1005Metric             -4.3180     7.9756  -90.0000  bottom
+C12       100nF                  C_0201_0603Metric             -1.5748     5.2324  -90.0000  bottom
+C13       100nF                  C_0201_0603Metric             -1.4986     2.4892  180.0000  bottom
+C14       100nF                  C_0201_0603Metric             -7.2136     2.6670    0.0000  bottom
+C15       1uF                    C_0402_1005Metric             -5.2832     2.6416    0.0000  bottom
+C_RF1     DNP                    C_0201_0603Metric             -9.1186     1.9304   90.0000  bottom
+C_RF2     DNP                    C_0201_0603Metric            -10.8458     1.9304   90.0000  bottom
+L1        3.9nH                  L_0201_0603Metric             -4.1631     2.6162   90.0000  bottom
+L2        4.7nH                  L_0201_0603Metric             -5.2375     1.2572  180.0000  bottom
+L3        DNP                    L_0201_0603Metric             -9.9822     1.6002  180.0000  bottom
+R1        4R7                    R_0201_0603Metric             -1.1176     0.7366  180.0000  bottom
+U1        NRF52840-CKAA-R7       BGA94N35P10X10_360X354X51N    -3.9878     5.0800   90.0000  bottom
+XTAL1     ABM11-32.000MHZ-B7G-T  OSCCC200X160X59               -7.2390     5.0292    0.0000  bottom
+XTAL2     ABS06-107-32.768KHZ-T  XTAL_ABS06-107-32.768KHZ-T    -7.0104     8.5344  180.0000  bottom
 ## End
