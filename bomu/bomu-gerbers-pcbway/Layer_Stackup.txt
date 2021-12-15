@@ -1,0 +1,38 @@
+Gerbers
+---------------------------------------
+Top     - Layer 1 - bomu-F_Cu.gtl
+        - Layer 2 - bomu-In1_Cu_VDD.g2
+        - Layer 3 - bomu-In2_Cu_SIG1.g3
+        - Layer 4 - bomu-In3_Cu_SIG2.g4
+        - Layer 5 - bomu-In4_Cu_GND.g5
+Bottom  - Layer 6 - bomu-B_Cu.gbl
+
+
+Top Mask        - bomu-F_Mask.gts
+Top Paste       - bomu-F_Paste.gtp
+Top Silkscreen  - bomu-F_Silkscreen.gto
+
+Bottom Mask       - bomu-B_Mask.gbs
+Bottom Paste      - bomu-B_Paste.gbp
+Bottom Silkscreen - bomu-B_Silkscreen.gbo
+
+
+Drill
+---------------------------------------
+Plated Through-Hole     - bomu-PTH.drl
+Non Plated Through-Hole - bomu-NPTH.drl
+
+Top     - Layer 1-3 - bomu-front-in2.drl
+        - Layer 1-4 - bomu-front-in3.drl
+        - Layer 2-6 - bomu-in1-back.drl
+        - Layer 3-6 - bomu-in2-back.drl
+        - Layer 4-6 - bomu-in3-back.drl
+        - Layer 5-6 - bomu-in4-back.drl
+
+
+Position
+---------------------------------------
+
+Top     - bomu-top.pos
+Bottom  - bomu-bottom.pos
+All     - bomu-all.pos

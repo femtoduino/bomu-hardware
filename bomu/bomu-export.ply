@@ -1,0 +1,10 @@
+ply
+format binary_little_endian 1.0
+comment Created by FreeCAD <http://www.freecadweb.org>
+element vertex 0
+property float32 x
+property float32 y
+property float32 z
+element face 0
+property list uchar int vertex_index
+end_header

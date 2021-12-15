@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "custom-pin")(type "KiCad")(uri "${KIPRJMOD}/custom-pin.pretty")(options "")(descr ""))
+)

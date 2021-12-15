@@ -1,0 +1,14 @@
+(footprint "mouse_bites" (version 20210126) (generator pcbnew) (layer "F.Cu")
+  (tedit 61B1A33B)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1e56b980-d720-4a14-8606-1f085f750b10)
+  )
+  (fp_text value "mouse_bites" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 44c069f4-097a-4531-ad87-56eeeb73d1c1)
+  )
+  (pad "" np_thru_hole circle (at 1 0) (size 1 1) (drill 0.5) (layers *.Mask) (tstamp d8bcc7b4-5b69-4d33-acf6-143b7c2f7c4c))
+  (pad "" np_thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Mask) (tstamp e26dbb31-9cc1-4a79-b24c-7694c588f434))
+  (pad "" np_thru_hole circle (at 2 0) (size 1 1) (drill 0.5) (layers *.Mask) (tstamp f0879fd9-eb7f-498f-9724-7264032e767c))
+)
