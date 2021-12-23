@@ -1,0 +1,100 @@
+** Drc report for /Users/aalbino/Projects/bomu-hardware/bomu/bomu.kicad_pcb **
+** Created on 2021-12-23 13:58:29 **
+
+** Found 6 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 3.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error (excluded)
+    @(5388.00 mils, 5515.95 mils): Pad 4 [VBUS] of USB1 on F.Cu
+    @(-147.64 mils, 123.03 mils): Polygon on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 3.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error (excluded)
+    @(5388.00 mils, 5515.95 mils): Pad 4 [VBUS] of USB1 on F.Cu
+    @(-147.64 mils, 123.03 mils): Polygon on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 3.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error (excluded)
+    @(5388.00 mils, 5260.05 mils): Pad 1 [GND] of USB1 on F.Cu
+    @(-147.64 mils, -83.66 mils): Polygon on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 3.00 mils; actual 0.00 mils)
+    Rule: netclass 'Default'; Severity: error (excluded)
+    @(5388.00 mils, 5260.05 mils): Pad 1 [GND] of USB1 on F.Cu
+    @(-147.64 mils, -123.03 mils): Polygon on F.Cu
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 3.00 mils; actual 0.00 mils)
+    Rule: board setup constraints silk; Severity: error (excluded)
+    @(5435.70 mils, 5428.30 mils): Line on B.Silkscreen
+    @(5433.35 mils, 5412.17 mils): Line on B.Silkscreen
+[silk_overlap]: Silkscreen overlap (board setup constraints silk clearance 3.00 mils; actual 0.00 mils)
+    Rule: board setup constraints silk; Severity: error (excluded)
+    @(5435.70 mils, 5428.30 mils): Line on B.Silkscreen
+    @(5433.35 mils, 5412.17 mils): Line on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 19 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5119.13 mils, 5588.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5739.13 mils, 5653.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5273.50 mils, 5588.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5828.50 mils, 5233.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5518.50 mils, 5183.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5498.50 mils, 5588.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5828.50 mils, 5533.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5278.50 mils, 5183.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    Local override; Severity: warning
+    @(5739.13 mils, 5173.00 mils): Footprint REF**
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5119.13 mils, 5183.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5119.13 mils, 5588.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5739.13 mils, 5653.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5273.50 mils, 5588.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5828.50 mils, 5233.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5518.50 mils, 5183.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5498.50 mils, 5588.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5828.50 mils, 5533.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5278.50 mils, 5183.00 mils): Footprint REF**
+[extra_footprint]: Extra footprint
+    Local override; Severity: warning
+    @(5739.13 mils, 5173.00 mils): Footprint REF**
+
+** End of Report **

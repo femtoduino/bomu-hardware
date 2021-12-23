@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [],
@@ -33,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -57,16 +56,18 @@
       28,
       29,
       30,
-      31,
-      37,
-      38
+      32,
+      33,
+      34,
+      35,
+      36
     ],
-    "visible_layers": "00310ff_8000001f",
+    "visible_layers": "fff3fff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
     "filename": "bomu.kicad_prl",
-    "version": 2
+    "version": 3
   },
   "project": {
     "files": []
